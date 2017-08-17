@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BusService } from 'app/tools/bus.service';
-import { Level, IMessage } from 'app/tools/components/message.model';
+import { Level, IMessage } from 'app/tools/message.model';
 import { IUser } from 'app/tools/user.model';
 import { IAction } from 'app/tools/schema.model';
 import { SchemaService } from 'app/tools/components/schema.service';
