@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { IWidgetSchema, IReportSchema, IFormSchema } from 'app/tools/components/_data/schema.model';
 import { BusService } from 'app/tools/bus.service';
 import { ROLE, STATUS } from 'app/tools/components/_data/user.model';
-import { GodDataService } from 'app/views/god/_data/god-data.service';
+import { GodService } from 'app/views/god/god.service';
 
 @Component({
   selector: 'ab-god-users',
@@ -14,7 +14,7 @@ export class GodUsersComponent implements OnInit {
   reportSchema: IReportSchema;
   createFormSchema: IFormSchema;
   users: any[];
-  constructor(private bus: BusService, private godData: GodDataService) { }
+  constructor(private bus: BusService, private god: GodService) { }
 
   ngOnInit() {
     this.bus
@@ -31,7 +31,7 @@ export class GodUsersComponent implements OnInit {
   }
 
   getUsers() {
-    this.godData
+    this.god
       .getUsers()
       .subscribe(users => this.users = users);
   }

@@ -4,7 +4,7 @@ import { Http } from '@angular/http';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 import { Location } from '@angular/common';
-import { IOrganization, OrganizationService } from 'app/views/organization/_data/organization.service';
+import { IOrganization, OrganizationService } from 'app/views/organization/organization.service';
 
 
 

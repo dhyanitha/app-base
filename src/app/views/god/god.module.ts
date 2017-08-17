@@ -2,8 +2,8 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { GodRoutingModule } from './god.routing';
-import { SharedModule } from 'app/tools/components/shared.module';
-import { GodDataService } from 'app/views/god/_data/god-data.service';
+import { ComponentsModule } from 'app/tools/components/components.module';
+import { GodService } from 'app/views/god/god.service';
 import { GodUsersComponent } from './god-users/god-users.component';
 import { GodOrganizationsComponent } from 'app/views/god/god-organizations/god-organizations.component';
 
@@ -11,12 +11,12 @@ import { GodOrganizationsComponent } from 'app/views/god/god-organizations/god-o
   imports: [
     CommonModule,
     GodRoutingModule,
-    SharedModule
+    ComponentsModule
   ],
   declarations: [
     GodOrganizationsComponent,
     GodUsersComponent],
-  providers: [GodDataService],
+  providers: [GodService],
   schemas: [NO_ERRORS_SCHEMA]
 })
 export class GodModule { }

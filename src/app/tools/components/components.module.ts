@@ -59,4 +59,4 @@ import { TimelineComponent } from './widgets/timeline/timeline.component';
   providers: [FormToolsService, SchemaService],
   schemas: [NO_ERRORS_SCHEMA]
 })
-export class SharedModule { }
+export class ComponentsModule { }

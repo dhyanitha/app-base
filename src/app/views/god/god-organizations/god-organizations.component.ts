@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IOrganizationAdmin } from 'app/views/god/_data/organization.model';
-import { GodDataService } from 'app/views/god/_data/god-data.service';
+import { IOrganizationAdmin } from 'app/views/god/organization-admin.model';
+import { GodService } from 'app/views/god/god.service';
 import 'rxjs/add/operator/do';
 import { Observable } from 'rxjs/Observable';
 import { BusService } from 'app/tools/bus.service';
@@ -27,7 +27,7 @@ export class GodOrganizationsComponent implements OnInit {
 
   public name = 'organizations';
   constructor(
-    private godData: GodDataService,
+    private god: GodService,
     private bus: BusService) { }
 
   ngOnInit() {
@@ -47,7 +47,7 @@ export class GodOrganizationsComponent implements OnInit {
   }
 
   getOrganizations() {
-    this.godData
+    this.god
       .getOrganizations()
       .do(data => this.organizations = data)
       .subscribe(this.getOrganizationsAdmins.bind(this));
@@ -58,7 +58,7 @@ export class GodOrganizationsComponent implements OnInit {
   }
 
   getOrganizationAdmin(organization) {
-    this.godData
+    this.god
       .getOrganizationAdmin(organization._id)
       .subscribe(user => organization.admin = user[0]);
   }
@@ -82,7 +82,7 @@ export class GodOrganizationsComponent implements OnInit {
   }
   setOrganizationAdmin(newAdmin) {
     newAdmin.organizationId = this.activeOrganization._id;
-    this.godData
+    this.god
       .setOrganizationAdmin(newAdmin)
       .subscribe(res => {
         this.bus.emit({ level: Level.SUCCESS, text: newAdmin.name + ' asiggned!!' });
@@ -93,7 +93,7 @@ export class GodOrganizationsComponent implements OnInit {
   onCreate(newOrganization) {
     this.activeCreateOrganizationModal = false;
     if (newOrganization) {
-      this.godData
+      this.god
         .postOrganization(newOrganization)
         .subscribe(res => {
           this.bus.emit({ level: Level.SUCCESS, text: newOrganization.name + ' created!!' });
@@ -105,7 +105,7 @@ export class GodOrganizationsComponent implements OnInit {
 
   onDelete(oldOrganization) {
     this.activeDeleteOrganizationModal = false;
-    this.godData
+    this.god
       .deleteOrganization(oldOrganization)
       .subscribe(res => {
         this.bus.emit({ level: Level.SUCCESS, text: oldOrganization.name + ' deleted!!' });

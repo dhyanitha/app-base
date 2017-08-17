@@ -9,7 +9,7 @@ import { SecurityService } from 'app/tools/security.service';
 import { ROLE } from 'app/tools/components/_data/user.model';
 
 @Injectable()
-export class GodDataService {
+export class GodService {
   private organizationsUrl = 'organizations';
   private credentialsUrl = 'credentials';
   private usersUrl = 'users';

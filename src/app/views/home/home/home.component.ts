@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IOrganization } from 'app/views/home/_data/models/organization.model';
-import { OrganizationsService } from 'app/views/home/_data/organizations.service';
+import { IOrganization } from 'app/views/home/organization.model';
+import { OrganizationsService } from 'app/views/home/organizations.service';
 import { IWidgetSchema, IAction, ILoadEmptyStateSchema, ITimelineSchema } from 'app/tools/components/_data/schema.model';
 import { BusService } from 'app/tools/bus.service';
 import 'rxjs/add/operator/takeWhile';

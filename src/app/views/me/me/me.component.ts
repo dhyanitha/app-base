@@ -4,7 +4,7 @@ import { SecurityService } from 'app/tools/security.service';
 import { IWidgetSchema } from 'app/tools/components/_data/schema.model';
 import { BusService } from 'app/tools/bus.service';
 import 'rxjs/add/operator/takeWhile';
-import { IOrganization, MeService } from 'app/views/me/_data/me.service';
+import { IOrganization, MeService } from 'app/views/me/me.service';
 import { SchemaService } from 'app/tools/components/_data/schema.service';
 
 @Component({

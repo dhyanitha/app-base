@@ -3,14 +3,14 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home.routing';
 import { HomeComponent } from './home/home.component';
-import { OrganizationsService } from 'app/views/home/_data/organizations.service';
-import { SharedModule } from 'app/tools/components/shared.module';
+import { OrganizationsService } from 'app/views/home/organizations.service';
+import { ComponentsModule } from 'app/tools/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    ComponentsModule
   ],
   declarations: [HomeComponent],
   providers: [OrganizationsService],

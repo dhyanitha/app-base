@@ -2,14 +2,14 @@ import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoginRoutingModule } from './login.routing';
 import { LoginComponent } from './login/login.component';
-import { SharedModule } from 'app/tools/components/shared.module';
+import { ComponentsModule } from 'app/tools/components/components.module';
 
 
 @NgModule({
   imports: [
     CommonModule,
     LoginRoutingModule,
-    SharedModule
+    ComponentsModule
   ],
   declarations: [LoginComponent],
   providers: [],

@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { OrganizationRoutingModule } from './organization.routing';
 import { OrganizationHomeComponent } from './organization-home/organization-home.component';
-import { SharedModule } from 'app/tools/components/shared.module';
-import { OrganizationService } from 'app/views/organization/_data/organization.service';
+import { ComponentsModule } from 'app/tools/components/components.module';
+import { OrganizationService } from 'app/views/organization/organization.service';
 
 
 @NgModule({
   imports: [
     CommonModule,
     OrganizationRoutingModule,
-    SharedModule
+    ComponentsModule
   ],
   declarations: [OrganizationHomeComponent],
   providers: [OrganizationService]
