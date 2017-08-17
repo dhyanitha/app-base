@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { IFormSchema, IWidgetSchema } from 'app/tools/components/_data/schema.model';
+import { IFormSchema, IWidgetSchema } from 'app/tools/components/schema.model';
 import { SecurityService, IUserCredential } from 'app/tools/security.service';
 import { environment } from './../../../../environments/environment';
-import { SchemaService } from 'app/tools/components/_data/schema.service';
+import { SchemaService } from 'app/tools/components/schema.service';
 import { Observable } from 'rxjs/Observable';
 import { BusService } from 'app/tools/bus.service';
 import { ActivatedRoute } from '@angular/router';

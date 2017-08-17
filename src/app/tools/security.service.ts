@@ -5,8 +5,8 @@ import { Http } from '@angular/http';
 import { BusService } from './bus.service';
 import { Router } from '@angular/router';
 import { environment } from './../../environments/environment';
-import { IUser } from 'app/tools/components/_data/user.model';
-import { Level } from 'app/tools/components/_data/message.model';
+import { IUser } from 'app/tools/components/user.model';
+import { Level } from 'app/tools/components/message.model';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/do';
 

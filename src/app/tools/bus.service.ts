@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Observable } from 'rxjs/Observable';
-import { IUser } from 'app/tools/components/_data/user.model';
-import { IMessage, Level } from 'app/tools/components/_data/message.model';
+import { IUser } from 'app/tools/components/user.model';
+import { IMessage, Level } from 'app/tools/components/message.model';
 
 
 @Injectable()

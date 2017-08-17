@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, EventEmitter, Output, OnChanges, SimpleChanges } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { IFormSchema, IForm } from 'app/tools/components/_data/schema.model';
+import { IFormSchema, IForm } from 'app/tools/components/schema.model';
 import { FormToolsService } from 'app/tools/components/forms/form-tools.service';
 
 @Component({

@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { IWidgetSchema, IKeyValue } from 'app/tools/components/_data/schema.model';
-import { SchemaService } from 'app/tools/components/_data/schema.service';
+import { IWidgetSchema, IKeyValue } from 'app/tools/components/schema.model';
+import { SchemaService } from 'app/tools/components/schema.service';
 
 @Component({
   selector: 'ab-card',

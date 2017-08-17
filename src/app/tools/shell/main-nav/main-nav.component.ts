@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IUser } from 'app/tools/components/_data/user.model';
-import { IAction } from 'app/tools/components/_data/schema.model';
+import { IUser } from 'app/tools/components/user.model';
+import { IAction } from 'app/tools/components/schema.model';
 
 @Component({
   selector: 'ab-main-nav',

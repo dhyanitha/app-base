@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
-import { SchemaService } from 'app/tools/components/_data/schema.service';
-import { IFormSchema, IWidgetSchema } from 'app/tools/components/_data/schema.model';
+import { SchemaService } from 'app/tools/components/schema.service';
+import { IFormSchema, IWidgetSchema } from 'app/tools/components/schema.model';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable()

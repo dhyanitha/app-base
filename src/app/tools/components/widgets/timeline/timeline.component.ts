@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ITimelineSchema } from 'app/tools/components/_data/schema.model';
+import { ITimelineSchema } from 'app/tools/components/schema.model';
 
 @Component({
   selector: 'ab-timeline',

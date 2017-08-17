@@ -1,8 +1,8 @@
 import { MeService } from '../me.service';
 import { BusService } from '../../../tools/bus.service';
 import { Component, OnInit } from '@angular/core';
-import { IWidgetSchema, IReportSchema, IFormSchema } from 'app/tools/components/_data/schema.model';
-import { ROLE, STATUS } from 'app/tools/components/_data/user.model';
+import { IWidgetSchema, IReportSchema, IFormSchema } from 'app/tools/components/schema.model';
+import { ROLE, STATUS } from 'app/tools/components/user.model';
 
 @Component({
   selector: 'ab-users',

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
-import { IFormSchema } from 'app/tools/components/_data/schema.model';
+import { IFormSchema } from 'app/tools/components/schema.model';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable()

@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
-import { SchemaService } from 'app/tools/components/_data/schema.service';
+import { SchemaService } from 'app/tools/components/schema.service';
 
 @Injectable()
 export class MeService {
@@ -52,7 +52,7 @@ export class MeService {
     return this.http.patch(`${this.credentialsUrl}/newPassword`, password);
   }
 
-getAdministratedUsers(): Observable<any> {
+  getAdministratedUsers(): Observable<any> {
     return this.http
       .get<any>(`${this.usersUrl}/administratedUsers`);
   }

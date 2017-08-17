@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
-import { IReportSchema, IKeyValue, IField } from 'app/tools/components/_data/schema.model';
-import { SchemaService } from 'app/tools/components/_data/schema.service';
+import { IReportSchema, IKeyValue, IField } from 'app/tools/components/schema.model';
+import { SchemaService } from 'app/tools/components/schema.service';
 
 @Component({
   selector: 'ab-table',

@@ -4,8 +4,8 @@ import { GodService } from 'app/views/god/god.service';
 import 'rxjs/add/operator/do';
 import { Observable } from 'rxjs/Observable';
 import { BusService } from 'app/tools/bus.service';
-import { Level } from 'app/tools/components/_data/message.model';
-import { IFormSchema, IWidgetSchema, IReportSchema, ILoadEmptyStateSchema, IKeyValue } from 'app/tools/components/_data/schema.model';
+import { Level } from 'app/tools/components/message.model';
+import { IFormSchema, IWidgetSchema, IReportSchema, ILoadEmptyStateSchema, IKeyValue } from 'app/tools/components/schema.model';
 import 'rxjs/add/operator/takeWhile';
 
 @Component({

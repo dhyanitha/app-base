@@ -1,5 +1,5 @@
 import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
-import { IWidgetSchema, IKeyValue, IReportSchema, IFormSchema, IHeader, IAction } from 'app/tools/components/_data/schema.model';
+import { IWidgetSchema, IKeyValue, IReportSchema, IFormSchema, IHeader, IAction } from 'app/tools/components/schema.model';
 
 @Component({
   selector: 'ab-editor',

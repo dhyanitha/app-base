@@ -19,7 +19,7 @@ import { TextareaComponent } from './forms/textarea/textarea.component';
 import { LoadEmptyStateComponent } from './layouts/load-empty-state/load-empty-state.component';
 import { EditorComponent } from './layouts/editor/editor.component';
 import { ActionComponent } from './layouts/action/action.component';
-import { SchemaService } from 'app/tools/components/_data/schema.service';
+import { SchemaService } from 'app/tools/components/schema.service';
 import { CardComponent } from './widgets/card/card.component';
 import { TimelineComponent } from './widgets/timeline/timeline.component';
 

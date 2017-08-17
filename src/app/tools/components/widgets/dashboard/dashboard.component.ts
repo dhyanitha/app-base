@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { IWidgetSchema } from 'app/tools/components/_data/schema.model';
+import { IWidgetSchema } from 'app/tools/components/schema.model';
 
 @Component({
   selector: 'ab-dashboard',
