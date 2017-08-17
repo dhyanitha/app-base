@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IOrganization } from 'app/views/home/organization.model';
 import { OrganizationsService } from 'app/views/home/organizations.service';
-import { IWidgetSchema, IAction, ILoadEmptyStateSchema, ITimelineSchema } from 'app/tools/components/schema.model';
+import { IWidgetSchema, IAction, ILoadEmptyStateSchema, ITimelineSchema } from 'app/tools/schema.model';
 import { BusService } from 'app/tools/bus.service';
 import 'rxjs/add/operator/takeWhile';
 import { SchemaService } from 'app/tools/components/schema.service';

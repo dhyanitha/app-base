@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, EventEmitter, Output, SimpleChanges, OnChanges } from '@angular/core';
-import { Level } from 'app/tools/components/message.model';
+import { Level } from 'app/tools/message.model';
 import { MessagesService } from 'app/tools/messages.service';
 
 @Component({

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IForm, IFormControl } from 'app/tools/components/schema.model';
+import { IForm, IFormControl } from 'app/tools/schema.model';
 import { FormToolsService } from 'app/tools/components/forms/form-tools.service';
 
 

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { IMessage } from 'app/tools/components/message.model';
 import { BusService } from 'app/tools/bus.service';
-import { IEvent } from 'app/tools/components/schema.model';
+import { IEvent } from 'app/tools/schema.model';
 
 @Injectable()
 export class MessagesService {

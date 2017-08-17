@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { IFormSchema, IWidgetSchema } from 'app/tools/components/schema.model';
+import { IFormSchema, IWidgetSchema } from 'app/tools/schema.model';
 import { SecurityService, IInvitationCredential } from 'app/tools/security.service';
 import { SchemaService } from 'app/tools/components/schema.service';
 

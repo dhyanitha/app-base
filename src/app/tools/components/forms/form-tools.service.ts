@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { FormGroup, Validators } from '@angular/forms';
-import { IValidator, IFormSchema } from 'app/tools/components/schema.model';
+import { IValidator, IFormSchema } from 'app/tools/schema.model';
 
 
 @Injectable()

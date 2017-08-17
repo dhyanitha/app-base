@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { BusService } from 'app/tools/bus.service';
 import { Level, IMessage } from 'app/tools/components/message.model';
-import { IUser } from 'app/tools/components/user.model';
-import { IAction } from 'app/tools/components/schema.model';
+import { IUser } from 'app/tools/user.model';
+import { IAction } from 'app/tools/schema.model';
 import { SchemaService } from 'app/tools/components/schema.service';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { environment } from 'environments/environment';

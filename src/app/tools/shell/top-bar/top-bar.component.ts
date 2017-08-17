@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter, HostListener } from '@angular/core';
-import { IUser } from 'app/tools/components/user.model';
+import { IUser } from 'app/tools/user.model';
 import { environment } from 'environments/environment';
 
 @Component({

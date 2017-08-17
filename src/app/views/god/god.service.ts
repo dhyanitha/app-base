@@ -6,7 +6,7 @@ import 'rxjs/add/operator/do';
 import { Observable } from 'rxjs/Observable';
 import { BusService } from 'app/tools/bus.service';
 import { SecurityService } from 'app/tools/security.service';
-import { ROLE } from 'app/tools/components/user.model';
+import { ROLE } from 'app/tools/user.model';
 
 @Injectable()
 export class GodService {

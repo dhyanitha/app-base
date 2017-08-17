@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IFormControl, IForm } from 'app/tools/components/schema.model';
+import { IFormControl, IForm } from 'app/tools/schema.model';
 
 @Component({
   selector: 'ab-textarea',

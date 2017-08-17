@@ -1,10 +1,3 @@
-export interface IUser {
-  email: string;
-  name: string;
-  organizationId: string;
-  roles: ROLE[];
-}
-
 export enum ROLE {
   ADMIN = 'ADMIN',
   CLIENT = 'CLIENT',
@@ -18,4 +11,11 @@ export enum STATUS {
   ACTIVE = 'ACTIVE',
   DISABLED = 'DISABLED',
   CANCELED = 'CANCELED'
+}
+
+export interface IUser {
+  email: string;
+  name: string;
+  organizationId: string;
+  roles: ROLE[];
 }

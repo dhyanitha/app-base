@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { ILoadEmptyStateSchema } from 'app/tools/components/schema.model';
+import { ILoadEmptyStateSchema } from 'app/tools/schema.model';
 
 @Component({
   selector: 'ab-load-empty-state',

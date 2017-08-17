@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IFormSchema, IWidgetSchema } from 'app/tools/components/schema.model';
+import { IFormSchema, IWidgetSchema } from 'app/tools/schema.model';
 import { SecurityService, IUserCredential } from 'app/tools/security.service';
 import { environment } from './../../../../environments/environment';
 import { SchemaService } from 'app/tools/components/schema.service';

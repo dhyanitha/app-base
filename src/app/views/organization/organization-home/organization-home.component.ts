@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IFormSchema, IWidgetSchema } from 'app/tools/components/schema.model';
+import { IFormSchema, IWidgetSchema } from 'app/tools/schema.model';
 import { Http } from '@angular/http';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs/Observable';

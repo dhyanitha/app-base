@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { IUser, ROLE } from 'app/tools/components/user.model';
+import { IUser, ROLE } from 'app/tools/user.model';
 import { SecurityService } from 'app/tools/security.service';
-import { IWidgetSchema } from 'app/tools/components/schema.model';
+import { IWidgetSchema } from 'app/tools/schema.model';
 import { BusService } from 'app/tools/bus.service';
 import 'rxjs/add/operator/takeWhile';
 import { IOrganization, MeService } from 'app/views/me/me.service';

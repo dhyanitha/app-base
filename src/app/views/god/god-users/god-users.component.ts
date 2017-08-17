@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { IWidgetSchema, IReportSchema, IFormSchema } from 'app/tools/components/schema.model';
+import { IWidgetSchema, IReportSchema, IFormSchema } from 'app/tools/schema.model';
 import { BusService } from 'app/tools/bus.service';
-import { ROLE, STATUS } from 'app/tools/components/user.model';
+import { ROLE, STATUS } from 'app/tools/user.model';
 import { GodService } from 'app/views/god/god.service';
 
 @Component({
